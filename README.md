@@ -1,0 +1,2 @@
+# Version-Control-System
+A very simple version control system for plain text files. It allows you to configure a user, track files, commit changes, view the log of events and checkout the files from any commit. It is easy extendible by only adding a new command to the enum Command class and providing the corresponding function to handle this command. The command parser is already in place if there is an interest to rework the grammar to allow for several commands stringed on the same command line. This project is part of JetBrains Academy's Basic Kotlin Track.
